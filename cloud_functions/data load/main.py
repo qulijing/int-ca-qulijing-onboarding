@@ -2,6 +2,7 @@ from google.cloud import bigquery
 from google.cloud import storage
 import functions_framework
 import json
+from collections import OrderedDict
 import os
 
 project_id = os.getenv('PROJECT_ID')  
@@ -97,6 +98,7 @@ def csvloadjobjsonconfig(jsonload, skipleadingrows):
     job_config = bigquery.LoadJobConfig()
     # https://cloud.google.com/python/docs/reference/bigquery/latest/google.cloud.bigquery.job.LoadJobConfig#google_cloud_bigquery_job_LoadJobConfig_create_disposition
     job_config.create_disposition=bigquery.job.CreateDisposition.CREATE_IF_NEEDED
+    job_config.write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE
     job_config.source_format = bigquery.SourceFormat.CSV
     job_config.skip_leading_rows = skipleadingrows
     job_config.schema = schema 
