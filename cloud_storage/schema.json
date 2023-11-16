@@ -1,0 +1,1017 @@
+[
+    {
+      "name": "gameId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seasonId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "seasonType",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "year",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "startTime",
+      "mode": "",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "gameStatus",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "attendance",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "dayNight",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "duration",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "durationMinutes",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayTeamId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayTeamName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeTeamId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeTeamName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueSurface",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueCapacity",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueCity",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueState",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueZip",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueMarket",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "venueOutfieldDistances",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFinalRuns",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFinalHits",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFinalErrors",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFinalRuns",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFinalHits",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFinalErrors",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFinalRunsForInning",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFinalRunsForInning",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "inningNumber",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "inningHalf",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "inningEventType",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "inningHalfEventSequenceNumber",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "description",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "atBatEventType",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "atBatEventSequenceNumber",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "createdAt",
+      "mode": "",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "updatedAt",
+      "mode": "",
+      "type": "TIMESTAMP",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "status",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "outcomeId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "outcomeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterLastName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterFirstName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterWeight",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterHeight",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterBatHand",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitcherId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitcherFirstName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitcherLastName",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitcherThrowHand",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitchType",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitchTypeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitchSpeed",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitchZone",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "pitcherPitchCount",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitterPitchCount",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitLocation",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "hitType",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "startingBalls",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "startingStrikes",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "startingOuts",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "balls",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "strikes",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "outs",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob0_start",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob0_end",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob0_isOut",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob0_outcomeId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob0_outcomeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob1_start",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob1_end",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob1_isOut",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob1_outcomeId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob1_outcomeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob2_start",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob2_end",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob2_isOut",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob2_outcomeId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob2_outcomeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob3_start",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob3_end",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob3_isOut",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob3_outcomeId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "rob3_outcomeDescription",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_ab",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_ab_over",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_hit",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_on_base",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_bunt",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_bunt_shown",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_double_play",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_triple_play",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_wild_pitch",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "is_passed_ball",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeCurrentTotalRuns",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayCurrentTotalRuns",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder1",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder2",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder3",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder4",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder5",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder6",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder7",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder8",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder9",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder10",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder11",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayFielder12",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter1",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter2",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter3",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter4",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter5",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter6",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter7",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter8",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "awayBatter9",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder1",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder2",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder3",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder4",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder5",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder6",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder7",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder8",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder9",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder10",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder11",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeFielder12",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter1",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter2",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter3",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter4",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter5",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter6",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter7",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter8",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "homeBatter9",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "lineupTeamId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "lineupPlayerId",
+      "mode": "",
+      "type": "STRING",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "lineupPosition",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    },
+    {
+      "name": "lineupOrder",
+      "mode": "",
+      "type": "INTEGER",
+      "description": null,
+      "fields": []
+    }
+  ]
