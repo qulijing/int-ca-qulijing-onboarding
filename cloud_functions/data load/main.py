@@ -5,7 +5,6 @@ import json
 from collections import OrderedDict
 import os
 
-project_id = os.getenv('PROJECT_ID')  
 bucket_name = os.getenv('BUCKET_NAME')
 csvfile_name = '*.csv'
 
