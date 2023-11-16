@@ -1,4 +1,3 @@
-  #CREATE OR REPLACE TABLE ca-qulijing-edu.data_task.standings_from_functions AS
 WITH
   winsLosses AS(
   SELECT

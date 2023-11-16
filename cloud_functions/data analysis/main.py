@@ -6,6 +6,8 @@ import os
 
 project_id = os.getenv('PROJECT_ID')  
 bucket_name = os.getenv('BUCKET_NAME')
+dataset_name = os.getenv('DATASET_NAME')
+table_name = os.getenv('TABLE_NAME')
 sqlfile_name = 'bigquery.sql'
 
 bq_client = bigquery.Client()
@@ -38,11 +40,14 @@ def logging(message):
 
 @functions_framework.http
 def analyse_data(request):
+  table_id = f"{project_id}.{dataset_name}.{table_name}"
   bucket = cs_client.get_bucket(bucket_name)
   blob = bucket.blob(sqlfile_name)
   query = blob.download_as_text()
 
   job_config = bigquery.QueryJobConfig(
+    destination=table_id,
+    create_disposition=bigquery.job.CreateDisposition.CREATE_IF_NEEDED,
     write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE
   )
   query_job = bq_client.query(
@@ -51,5 +56,7 @@ def analyse_data(request):
   )
 
   query_job.result()
-  logging(f"Data queried successfully.")
+
+  table = bq_client.get_table(table_id)
+  logging(f"Loaded {table.num_rows} rows to table {table_id}.")
   return 'OK'
