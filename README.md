@@ -20,11 +20,14 @@
 ③毎日午前 7 時 30 分、`Cloud Scheduler` が HTTP リクエストトリガーとして、順位表作成関数（`analyse-data Functions`）を呼び出します。
 `csv_from_gcs` テーブルに存在するデータの順位を示された結果は `BigQuery` の `standings_from_functions` テーブルに格納されます。
 
-### パラメータシート
-[こちら](https://docs.google.com/spreadsheets/d/1046TqE0tv1MICqUCmBnfw0Wj_rT7M5aVzOcFbsSIoD4/edit#gid=177672178)を参照してください。
+### ドキュメント
+[こちら](https://docs.google.com/spreadsheets/d/1046TqE0tv1MICqUCmBnfw0Wj_rT7M5aVzOcFbsSIoD4/edit#gid=35006606)を参照してください。
+- 機能設計
+- テーブル定義
+- パラメータシート
+- テスト仕様書
+- タスク一覧
 
-### テスト仕様書
-[こちら](https://docs.google.com/spreadsheets/d/1046TqE0tv1MICqUCmBnfw0Wj_rT7M5aVzOcFbsSIoD4/edit#gid=1190180227)を参照してください。
 
 ## ディレクトリ構成
 <pre>
